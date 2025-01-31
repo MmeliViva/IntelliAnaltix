@@ -1762,6 +1762,17 @@ section,
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
+
+.pricing .pricing-cards {
+  height: 100%;
+  padding: 2rem;
+  background: var(--surface-color);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+
 .pricing .pricing-card {
   height: 100%;
   padding: 2rem;
